@@ -1,0 +1,6 @@
+{
+  "name": "EtherPulse AI",
+  "description": "Advanced Web3 network diagnostics and AI-powered security scanner. Tests connection speed (download, upload, ping) and scans URLs for phishing/scam risks via Gemini AI. API key secured server-side via Cloudflare Worker Secret — never exposed to the browser.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

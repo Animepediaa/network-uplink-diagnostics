@@ -1,0 +1,18 @@
+name = "etherpulse-worker"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+# Your worker will be available at:
+#   https://etherpulse-worker.<your-subdomain>.workers.dev
+#
+# To set your GEMINI_API_KEY secret (run this ONCE after deploying):
+#   wrangler secret put GEMINI_API_KEY
+#
+# The key will be stored encrypted in Cloudflare — never in this file or your repo.
+
+[vars]
+# Non-sensitive public config can go here (optional)
+# EXAMPLE_VAR = "some-public-value"
+
+# NOTE: GEMINI_API_KEY must NOT be placed here.
+# Use: wrangler secret put GEMINI_API_KEY
